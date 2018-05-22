@@ -3,12 +3,15 @@
 
 \documentclass[]{cv-style}          % Add 'print' as an option into the square bracket to remove colours from this template for printing. 
                                     % Add 'espanol' as an option into the square bracket to change the date format of the Last Updated Text
+                                   
 
 \sethyphenation[variant=british]{english}{} % Add words between the {} to avoid them to be cut 
+\usepackage{fontawesome}
 
 \begin{document}
 
-\header{John}{Smith}           % Your name
+\header{Shrishail}{ Mashal}           % Your name
+
 \lastupdated
 
 %----------------------------------------------------------------------------------------
@@ -17,35 +20,50 @@
 
 \begin{aside}
 %
-\section{contact}
-123 Broadway
-City, State 050022
-Country
+\section{contact}\small
+Laxmi Nivas,
+Near Deccan paper mills,
+hadapsar railway station 
+Pune-411014
+India
 ~
-+0 (000) 111 1111
-+0 (000) 111 1112
++91 9923738994
 ~
-john@smith.com
+shrimashal@gmail.com
+~
+%
+\section{links}
+Github ID:
+\faGithub { shree94mashal}
+~
+LinkedIn:
+\faLinkedin { shrishail-mashal-76a6108a}
+~
 %
 \section{languages}
-English mother tongue
-Spanish fluency
+English Flunces
 %
 \section{programming}
-{\color{red} $\varheartsuit$} R
-VBA, SQL, Python
-\LaTeX{}
+Python, Shell Scripting,
+PHP, JavaScript, HTML
+%
+\section{operating systems}
+Linux, Unix, MacOS
+%
+\section{DevOps - Containers}
+Docker, Docker Swarm, 
+Kubernetes
+%
+\section{DevOps - Cloud}
+AWS (Amazon Web Services)
+%
+\section{DevOps - Automation (Config, Infra)}
+Ansible, SaltStack, Vagrant
+%
+\section{DevOps - Monitoring and VCS}
+SVN, Git, GitLab, Newrelic, Monit, Nagios
 %
 \end{aside}
-
-%----------------------------------------------------------------------------------------
-%	SKILLS SECTION
-%----------------------------------------------------------------------------------------
-
-\section{skills}
-  \vspace{-0.2cm}
-
-Skill 1, skill 2, skill 3, skill 4, skill 5.
 
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
@@ -54,48 +72,27 @@ Skill 1, skill 2, skill 3, skill 4, skill 5.
 \section{experience}
 
 \begin{entrylist}
-%------------------------------------------------
-\entry
-  {2014--Now}
-  {COMPANY 3}
-  {City, Country}
-  {\jobtitle{Job Title}\\
-  Job description. Job description. Job description. Job description. Job description. Job description. Job description. Job description. Job description. Job description. Job description.}
-%------------------------------------------------
-\entry
-  {2011--2014}
-  {COMPANY 2}
-  {City, Country}
-  {\jobtitle{Job Title}\\
-  Job description. Job description. Job description. Job description. Job description. Job description. Job description. Job description. Job description. Job description.\\
-  Detailed achievements:
-  \begin{itemize}
-    \item Achievement 1. Achievement 1. Achievement 1. 
-    \item Achievement 2. Achievement 2. Achievement 2. Achievement 2. Achievement 2. Achievement 2.
-    \item Achievement 3. Achievement 3. Achievement 3. Achievement 3.  
-  \end{itemize}}
-%------------------------------------------------
-\entry
-  {2008--2011}
-  {COMPANY 1}
-  {City, Country}
-  {\jobtitle{Job Title}\\
-  Job description. Job description. Job description. Job description. Job description. Job description. Job description. Job description. Job description. Job description.\\
-  Detailed achievements:
-  \begin{itemize}
-    \item Achievement 1. Achievement 1. Achievement 1. Achievement 1. Achievement 1. Achievement 1. Achievement 1. Achievement 1. 
-  \end{itemize}}
-%------------------------------------------------
-\entry
-  {2007--2008}
-  {COMPANY 1}
-  {City, Country}
-  {\jobtitle{Job Title}\\
-  Job description. Job description. Job description. Job description. Job description. Job description. Job description. Job description. Job description. Job description.\\}
-%------------------------------------------------
 
+%------------------------------------------------
+\entry
+  {2015--Now}
+  {Xento Systems}
+  {Pune, IN}
+  {\jobtitle{DevOps Engineer}
+  
+  \begin{itemize}
+  \item NewRelic Monitoring Tool Certified Engineer.
+  \item Working on Dockerizing internal tools and Configuration management.
+  \item Configuring monitoring tools like ELK, Monit, Newrelic for real-time alerts.
+  \item Automation of release process using Jenkins Pipeline (CI and CD)
+\item Implementation of Vagrant  Saltstack for dev, QA, Stage Production environment
+\item Developed scripts for configuration, build, deployment, maintenance, Release etc using PHP
+\item Migration of the entire Entrata code base from PHP 5.5 to PHP 7
+\item Developed PowerCLI/PowerShell scripts to automate configuration of local into developer machine and virtual machine inventory.
+ 
+  \end{itemize}
+  }
 \end{entrylist}
-
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
@@ -104,67 +101,80 @@ Skill 1, skill 2, skill 3, skill 4, skill 5.
 
 \begin{entrylist}
 %------------------------------------------------
+
 \entry
-{2010--2011}
-{M.Sc. {\normalfont in Economics [Grade]}}
-{University}
+{2009--2012}
+{Bachelor In Computer Application {\normalfont C.B. K College, Akkalkot [69.00]}}
+{Solapur University, Solapur}
 {\vspace{-0.3cm}}
-%------------------------------------------------
+%-------------------------------------------------
 \entry
-{2004--2009}
-{B.Eng. {\normalfont in Engineering Management [Grade]}}
-{University}
-{(Emphasis in ...)}
+{2012--2015}
+{Masters In Computer Application {\normalfont Sinhgad Institutes, Pune [69.00]}}
+{Pune University}
+{ }
 %------------------------------------------------
 \end{entrylist}
 
 %----------------------------------------------------------------------------------------
-%	OTHER QUALIFICATIONS SECTION
+%	B.E. Coursework
 %----------------------------------------------------------------------------------------
-
-\section{other qualifications}
+\section{graduate coursework}
 
 \begin{entrylist}
 %------------------------------------------------
 \entry
-{2013}
-{Qualification}
-{Institution}
-{\vspace{-0.3cm}}
-%------------------------------------------------
-\entry
-{2011}
-{Qualification}
-{Institution}
-{\vspace{-0.3cm}}
+{2015}
+{Work Order Management} 
+{Pune University}
+{ Water Tank supply, maintenances management system . \\
+  \textbf{Tools and Technolgies:} 1, Core Java 2, Oracle 11g}
+
 %------------------------------------------------
 \end{entrylist}
 
 %----------------------------------------------------------------------------------------
-%	AWARDS SECTION
+%	ADDITIONAL PROJECTS
 %----------------------------------------------------------------------------------------
-
-\section{awards}
+\section{Personal Strengths }
 
 \begin{entrylist}
 %------------------------------------------------
 \entry
-{2014}
-{Award name}
-{Institution}
-{Award description. Award description. Award description. Award description. Award description. Award description. Award description. }
+{}
+{Excellent analytical, technical and communication skills.}
+{ }
+{Can easily build up a good rapport with co-workers. Excellence in Communication, good adjusting power to circumstances. Good grasping power, commitment to complete work, Eager to learn new things.}
+
 %------------------------------------------------
 \end{entrylist}
 
 %----------------------------------------------------------------------------------------
-%	INTERESTS SECTION
+%	Publications
 %----------------------------------------------------------------------------------------
+\section{Objectives}
 
-\section{interests}
-  \vspace{-0.2cm}
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{}
+{ Leaning and Exploring  } 
+{}
+{ To work with an organization that will provide me with a good working environment, opportunity to learn new things. Moreover to be an employee helpful for organization and myself too.
+} {}
+%------------------------------------------------
+\end{entrylist}
 
-\textbf{professional:} professional interest 1, professional interest 2 and professional interest 3. \textbf{personal:} personal interest 1, personal interest 2, personal interest 3 and personal interest 4.
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{}
+{ The above statements are true to the best of my knowledge and belief.} 
+{}
 
-%----------------------------------------------------------------------------------------
-
+%------------------------------------------------
+\end{entrylist}
+\begin{flushright}  
+\section{shree}
+\end{flushright}
 \end{document}
